@@ -29,6 +29,8 @@ const displayCountries = (countries) => {
 
     appendData.appendChild(countryDiv);
 
+    msg.style.display = "none"
+
 
     document.getElementById("search").addEventListener("input", function () {
       const searchTerm = this.value.toLowerCase();

@@ -47,6 +47,13 @@ body {
     outline: 0;
 }
 
+.msg {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 80px;
+}
+
 #countries {
     border: 1px dashed green;
     padding: 10px;
